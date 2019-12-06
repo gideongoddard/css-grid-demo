@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template: repeat(8, 1fr) / repeat(12, 1fr);
+}
+
+.box {
+    border: 1px solid blue;
+    background-color: beige;
+    color: black;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.a {
+    grid-area: 1 / 1 / span 8 / span 3;
+}
