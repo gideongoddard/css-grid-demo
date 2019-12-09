@@ -10,11 +10,11 @@ body {
 h1 {
     text-transform: uppercase;
     text-align: center;
+    text-decoration: blue underline;
 }
 
 h2 {
-    display: inline-block;
-    border-bottom: 2px solid blue;
+    text-decoration: blue underline;
 }
 
 .tiles {
@@ -71,6 +71,16 @@ h2 {
 
 .i {
     grid-column: 7 / span 2;
+}
+
+p {
+    line-height: 17px;
+}
+
+code {
+    background-color: lightyellow;
+    padding: 5px;
+    font-weight: 700;
 }
 
 @media only screen and (max-width: 600px) {
