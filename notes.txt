@@ -1,9 +1,22 @@
-### Grid container
+### Grid container basics
 * grid-template (-columns, -rows): units >> px, %, fr;
 * repeat() for units;
 * minmax() for units;
 * grid-gap (-row-, -column-);
+===
 
-### Grid items
+### Grid items basics
 * grid-row, grid-column (-start, -end)>> span;
 * grid-area;
+===
+
+* grid-template-areas >> grid-area;
+* justify-items;
+* justify-content;
+* align-items;
+* align-content;
+* justify-self;
+* align-self;
+* grid-auto-rows;
+* grid-auto-columns;
+* grid-auto-flow;
